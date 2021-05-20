@@ -11,25 +11,6 @@ a{
     color: inherit;
     cursor: pointer;
 }
-.navigation{
-    float: right;
-    font-size: large;
-    list-style: none;
-    margin-top: 30px;
-}
-.navigation li{
-    display: inline-block;
-}
-.navigation li a{
-    display: inline-block;
-    color: rgb(238, 177, 147);
-    text-align: center;
-    padding: 20px 16px;
-    text-decoration: none;
-}
-.navigation li a:hover{
-    background-color:beige;
-}
 section{
     display:-webkit-flex;
     display:-moz-flex;
@@ -70,11 +51,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
-    padding: 35px 100px 0;
-}
-header h2{
-    text-transform: uppercase;
 }
 header nav{
     display:-webkit-flex;
@@ -85,6 +61,11 @@ header nav{
 }
 header nav li{
     margin: 0 15px;
+    color: rgb(238, 177, 147);
+    font-size: medium;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
 }
 header nav li:first-child
 {
@@ -92,6 +73,9 @@ header nav li:first-child
 }
 header nav li:last-child{
     margin-right: 0;
+}
+header nav li a:hover{
+    background-color: beige;
 }
 @media (max-width: 1000px){
     header{
